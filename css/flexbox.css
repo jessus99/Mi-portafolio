@@ -1,0 +1,365 @@
+
+.todo {
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.headerPrincipal .contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo{
+    padding-left: 20px;
+}
+.headerPrincipal-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerPrincipal-nav-link{
+    display: flex;
+    width: 16%;
+}
+
+.principal .contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.redesSociales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.descripcionPersonal .contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.habilidades .contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.lista-habilidades{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.aficiones .contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.lista-aficiones{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.formacionAcademica .contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.listaFormacion{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.experienciaProfesional .contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.titulo-experiencia{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#proyectoEncriptador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+#proyectoBarberia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+}
+
+button{
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Raleway";
+    font-style: normal;
+}
+.contacto .contenedor{
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.contacto .contenedor form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    padding: 0px 300px 0px 0px;
+}
+.rodapiePrincipal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+/*responsive*/
+
+@media (max-width: 426px) {
+    a.headerPrincipal-nav-link {
+        display: none;
+    }
+    .principal .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 400px;
+        align-items: initial;
+    }
+    .Perfil{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .presentacionPersonal{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .descripcionPersonal .contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .descripcion{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 270px;
+    }
+    .habilidades .contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .lista-habilidades{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 370px;
+    }
+    .aficiones .contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .lista-aficiones{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 370px;
+    }
+    li{
+        justify-content: space-between;
+    }
+    .experienciaProfesional .contenedor{
+        flex-direction: column;
+        align-items:start;
+        height: 1000px;
+    }
+    #proyectoEncriptador{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 400px;
+        padding: 0px 0px 0px 5px;
+    }
+    #proyectoBarberia{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 500px;
+    }
+    #imgProfesional{
+        order: -3;
+    }
+    .contacto .contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    #imagenContacto{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    a.headerPrincipal-nav-link {
+        display: none;
+    }
+    .Perfil{
+        flex-wrap: wrap;
+    }
+    .presentacionPersonal{
+        flex-wrap: wrap;
+    }
+    #imgProfesional{
+        width: 350px;
+        height: 300px;
+    }
+    .experienciaProfesional .contenedor{
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        height: 900px;
+    }
+    #proyectoEncriptador{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0px 0px 0px 5px;
+    }
+    #proyectoBarberia{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #imgProfesional{
+        order: -4;
+    }
+    .contacto .contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 350px;
+        width: 300px;
+    }
+    #imagenContacto{
+        display: none;
+    }
+}
+
+@media(max-width:1000px){
+
+    .headerPrincipal .contenedor{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        }
+    .principal .contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        height: 700px;
+    }
+    
+    .principal .contenedor #fotoPersonal{
+        order: 0;
+    }
+    .Perfil{
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+    .presentacionPersonal{
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+    .redesSociales{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+    .descripcionPersonal .contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    .habilidades .contenedor{
+        height: 600px;
+        align-items: initial;
+    }
+    .titulo{
+        align-items: center;
+        justify-content: center;
+    }
+    .aficiones .contenedor{
+        height: 600px;
+        align-items: initial;
+    }
+    .formacionAcademica .contenedor{
+        width: 350px;
+    }
+    .experienciaProfesional .contenedor{
+        height: 1100px;
+    }
+    #proyectoEncriptador{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    
+    #proyectoBarberia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 5px;
+    }
+    .contacto .contenedor{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 450px;
+        width: 100px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .rodapiePrincipal .contenedor{
+        justify-content: center;
+        align-items: center;
+    }
+    }

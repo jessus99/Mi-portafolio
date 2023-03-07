@@ -1,0 +1,269 @@
+body{
+    background: linear-gradient(35deg, rgb(85, 152, 190) 23%, rgb(5, 87, 134) 100%) fixed; 
+    color: #fff;
+}
+
+.headerPincipal{
+    background-color: #fcfcfc;
+	padding: 20px 0;
+}
+.presentacion{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Raleway";
+    font-style: normal;
+}
+.headerPrincipal-nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#correo{
+    font-weight: bold;
+}
+
+.Perfil{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 52px;
+    line-height: 61px;
+    font-weight: 450px;
+    font-size: 52px;
+}
+
+.presentacionPersonal{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+.redesSociales-nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+#fotoPersonal{
+    border-radius: 150px;
+}
+
+.titulo-presentacion{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.descripcion{
+    font-family: 'Raleway';
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.habilidades{
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+
+}
+img{
+    border-radius: 30px;
+    width: 180px;
+    height: 180px;
+}
+.aficiones{
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+
+.formacionAcademica{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 30px;
+}
+.materia{
+    font-size: 15px;
+}
+
+.experienciaProfesional{
+    font-family: "Raleway";
+    font-style: normal;
+    font-size: 30px;
+}
+#imgProfesional{
+    height: 250px;
+    width: 250px;
+}
+
+input{
+    height: 20px;
+}
+.mensaje{
+    height: 50px;
+}
+.enviar{
+    width: 100px;
+}
+
+.contacto{
+    font-size: 25px;
+    font-family: "Raleway";
+    font-style: normal;
+}
+#imagenContacto{
+    width: 464px;
+    height: 450px;
+}
+.rodapiePrincipal{
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+.headerPrincipal .contenedor{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.headerPrincipal-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headerPrincipal-nav-link{
+    display: flex;
+    width: 16%;
+}
+
+.principal .contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.descripcionPersonal .contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.habilidades .contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.lista-habilidades{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.aficiones .contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.lista-aficiones{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.formacionAcademica .contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+
+}
+
+.listaFormacion{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.experienciaProfesional .contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 900px;
+}
+.titulo-experiencia{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#proyectoEncriptador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    padding-right: 550px;
+    
+}
+
+#proyectoBarberia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 250px;
+    padding-left: 550px;
+}
+
+button{
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Raleway";
+    font-style: normal;
+}
+
+.contacto .contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 450px;
+    padding: 0px 200px 20px 300px;
+}
+.rodapiePrincipal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
